@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    text-align: center;
+    overflow: hidden;
+}
+h1{
+    font-size: 7rem;
+    font-family: 'Dancing Script', cursive;
+    padding: 80px;
+    margin: 80px;
+}
+
+.drum{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgba(98, 98, 98, 0.324);
+    border-radius: 100%;
+    font-size: 3.5rem;
+    font-family: 'Orbitron', sans-serif;
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%);
+    margin: 45px;
+    text-shadow: 6px 0  rgba(98, 98, 98, 0.324);
+    cursor: pointer;
+    opacity: 1.5;
+}
+.pressed{
+    opacity: 0.8;
+      font-size: 5rem;
+      box-shadow: 0px 10px 8px 0px #012633;
+}
+
+
+footer{
+    margin: 50px;
+    padding: 20px;
+    font-size:2rem;
+    font-family: 'Dancing Script', cursive;
+}
+.u{
+   background-image: url(images/crash.png) ;
+   background-repeat: no-repeat;
+}
+.w{
+    background-image: url(images/tom1.png) ;
+    background-repeat: no-repeat;
+}
+.l{
+    background-image: url(images/snare.png) ;
+    background-repeat: no-repeat;
+
+}
